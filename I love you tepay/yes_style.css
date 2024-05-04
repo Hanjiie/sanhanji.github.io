@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url('https://i.pinimg.com/736x/d2/92/96/d2929647b64ce5101e20814e35454ed8.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-color: rgb(0, 0, 0); 
+}
+
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 3.0); 
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.gif_container img {
+    width: 500px; 
+    height: 500px; 
+}
